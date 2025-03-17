@@ -1,5 +1,5 @@
 body {
-    background-color: #76418c;
+    background-color: #fce4ec;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 0;
@@ -10,7 +10,7 @@ body {
     max-width: 700px;
     /*max-width: 55vw;*/
     margin: auto;
-    background-color: #ce92e7;
+    background-color: white;
     padding: 20px;
     border-radius: 60px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -23,6 +23,7 @@ body {
 #mood {
     height: 30px;
     border-radius: 5%;
+    background-color: #fde2e4;
 }
 
 h1 {
@@ -35,21 +36,22 @@ textarea {
     margin-top: 20px;
     border-radius: 10px;
     font-size: 18px;
+    background-color: #fde2e4;
 }
 
 button {
     margin-top: 10px;
     padding: 10px;
     border: 2px solid grey;
-    background-color: #b544ce;
-    color: white;
+    background-color: pink;
+    color: black;
     cursor: pointer;
     border-radius: 20px;
 }
 
 ul {
     list-style: none;
-    background-color: #ffffff;
+    background-color: #fde2e4;
     /*background-color: #fdf0d1;  эт цвет был норм */ 
     margin: 5px 0;
     padding: 10px;
