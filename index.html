@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood dairy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Дневник настроения</h1>
+        <div class="mood-form">
+            <label for="mood">Выберите настроение: </label>
+            <select id="mood">
+                <option value="😊">😊 Радость</option>
+                <option value="😢">😢 Грусть</option>
+                <option value="😡">😡 Злость</option>
+                <option value="😌">😌 Спокойствие</option>
+                <option value="🤩">🤩 Восхищение</option>
+                <option value="😔">😔 Печаль</option>
+                <option value="😠">😠 Раздражение</option>
+                <option value="😂">😂 Веселье</option>
+                <option value="🥰">🥰 Влюблённость</option>
+                <option value="😴">😴 Усталость</option>
+                <option value="😵">😵 Перегруженность</option>
+                <option value="😎">😎 Уверенность</option>
+                <option value="🥺">🥺 Обида</option>
+                <option value="😨">😨 Страх</option>
+                <option value="😶">😶 Растерянность</option>
+                <option value="🤯">🤯 Шок</option>
+                <option value="😅">😅 Неловкость</option>
+                <option value="😬">😬 Тревожность</option>
+                <option value="🤔">🤔 Размышление</option>
+                <option value="🤗">🤗 Благодарность</option>
+                <option value="🤤">🤤 Удовлетворение</option>
+                <option value="🤪">🤪 Безумие</option>
+                <option value="🥳">🥳 Восторг</option>
+                <option value="😇">😇 Спокойная радость</option>
+                <option value="🤢">🤢 Отвращение</option>
+                <option value="😓">😓 Разочарование</option>
+                <option value="😭">😭 Глубокая грусть</option>
+            </select>
+            
+            <textarea name="note" id="note" placeholder="Введите заметку..."></textarea>
+            <button id="saveMood">Сохранить</button>
+        </div>
+        <div class="mood-history">
+            <h2>История настроений</h2>
+            <ul id="moodList"></ul>
+            <button id="clearAll">Очистить всё</button>
+        </div>
+        <canvas id="moodChart"></canvas>
+    </div>
+    
+    <script src="script.js"></script>       
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    background-color: #76418c;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    /*max-width: 55vw;*/
+    margin: auto;
+    background-color: #ce92e7;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mood-form {
+    margin-bottom: 20px;
+}
+
+#mood {
+    height: 30px;
+    border-radius: 5%;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid grey;
+    background-color: #b544ce;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    background-color: #ffffff;
+    /*background-color: #fdf0d1;  эт цвет был норм */ 
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
